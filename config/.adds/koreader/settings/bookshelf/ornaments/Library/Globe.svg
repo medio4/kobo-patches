@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bookshelf:overhang=0 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 106">
+  <circle cx="35" cy="44" r="26" fill="#cfcfcf" stroke="#222" stroke-width="1.4"/>
+  <path d="M22 30 C28 26 34 32 30 38 C26 44 32 48 28 54 C22 56 16 48 18 40 Z" fill="#6a6a6a" stroke="#222" stroke-width="1"/>
+  <path d="M40 24 C48 22 56 30 54 38 C50 42 44 38 42 44 C40 50 46 56 42 62 C36 60 38 50 36 44 C34 36 36 28 40 24 Z" fill="#6a6a6a" stroke="#222" stroke-width="1"/>
+  <path d="M35 18 A26 26 0 0 1 35 70" fill="none" stroke="#3a3a3a" stroke-width="3"/>
+  <path d="M35 14 A30 30 0 0 1 35 74" fill="none" stroke="#3a3a3a" stroke-width="2.5"/>
+  <rect x="32" y="74" width="6" height="14" fill="#4a4a4a" stroke="#222" stroke-width="1.2"/>
+  <ellipse cx="35" cy="96" rx="16" ry="3.4" fill="#4a4a4a" stroke="#222" stroke-width="1.2"/>
+  <path d="M22 96 L26 88 H44 L48 96 Z" fill="#5a5a5a" stroke="#222" stroke-width="1.2" stroke-linejoin="round"/>
+</svg>

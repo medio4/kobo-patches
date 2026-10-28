@@ -42,3 +42,20 @@ Choose one: top menu > Bookshelf > Theme > This shelf (or Default theme for ever
 No wallpaper or ornaments, on purpose. The two potted plants Bookshelf seeds into the ornaments folder (`template.svg`, `cactus.svg`) can be turned off under Theme > Ornaments, or deleted (they don't come back).
 
 Planks are regenerated with `tools/make_planks.sh <outdir> <Name> <surface> <highlight> <front> <outline> 0` (needs ImageMagick 7). Same canvas as the built-in oak: 960x360 middle, 220x360 ends, top surface y120-214, front edge y216-238.
+
+## Art theme packs (made for this device)
+
+Three themes with pictures, also in `settings/bookshelf/ornaments/`. Every plank is flat (no wood). All art is greyscale so it reads on the Clara BW.
+
+| Pack | Wallpaper | Shelf | Ornaments |
+|---|---|---|---|
+| **Botanical** | Bradbury's fern engraving, faded to a pale wash | Paper (white) | Four framed plant prints: Fern, Turban lily, Cape lily, Flowering rush |
+| **Library** | Canaletto, *The Library, Venice*, faded | Ink (black) | Drawn candle, globe, hourglass |
+| **Night Sky** | Generated star field (dark theme) | Graphite | Drawn moon and telescope |
+
+![Wallpapers: Minimal, Minimal Grey, Botanical, Library, Night Sky](art-packs-walls-preview.png)
+![Ornaments](art-packs-ornaments-preview.png)
+
+All prints are CC0 from the Cleveland Museum of Art Open Access collection; each pack's `CREDITS.txt` lists them. Each theme has day and night colours (written as they should look; Bookshelf inverts them itself for night mode).
+
+Rebuild with `tools/make_art_packs.sh <art_dir> <out_dir>` (ImageMagick 7). `<art_dir>` holds the museum print JPEGs (`1993.45_print.jpg`, `2020.164_print.jpg`, `1955.142_print.jpg`, `1955.144_print.jpg`, `1925.1239.15_print.jpg` from openaccess-cdn.clevelandart.org). It also builds its own copies of Minimal, Minimal Grey and Smooth planks; only the three art packs were installed from it.

@@ -1,0 +1,5 @@
+{
+  "day":   {"page": "#EDE6DA", "text": "#1A1410", "panel": "#F6F1E8", "panel text": "#1A1410", "menu bar": "#EDE6DA",
+            "progress bar": "#2A211A", "progress track": "#D3CBBE", "selected shelf": "#2A211A", "selected shelf text": "#FFFFFF", "plank": "#1C1C1C"},
+  "night": {"page": "#14110D", "text": "#EAE3D6", "panel": "#1E1A15", "panel text": "#EAE3D6", "menu bar": "#14110D",
+            "progress bar": "#D9CFBF", "progress track": "#3A342C", "selected shelf": "#D9CFBF", "selected shelf text": "#14110D", "plank": "#1C1C1C"}}
