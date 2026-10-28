@@ -11,7 +11,7 @@ Fill these in from **Settings > Device information** on the Kobo:
 | Model | Kobo Clara BW |
 | Firmware version | 4.46.23836 |
 | KOReader version | v2026.07.2 |
-| Library UI | Project: Title v3.8.3 (Simple UI 3.0.1 installed but disabled) |
+| Library UI | Bookshelf v6.0.4 (Project: Title v3.8.3 and Simple UI 3.0.1 installed but disabled) |
 | Other mods installed | Storefront, Readest, Rakuyomi, X-Ray, FilebrowserPlus (web file transfer) and others |
 
 ## Layout
@@ -33,7 +33,7 @@ docs/      Troubleshooting notes and install steps
 
 | Problem | Status | Notes |
 |---|---|---|
-| Simple UI lags | Replaced | Switched to Project: Title. See [docs/project-title.md](docs/project-title.md) |
+| Simple UI lags | Replaced | Switched to Bookshelf. See [docs/bookshelf.md](docs/bookshelf.md) |
 | Simple UI crashes | Worked around | Onboarding screen crashes on B&W screen; plugin disabled. See [docs/simpleui-onboarding-crash.md](docs/simpleui-onboarding-crash.md) |
 | Kobo not showing up on Mac in stock firmware | Investigating | |
 
@@ -44,3 +44,4 @@ Record every change made to the device here, with the date, so a bad change can 
 - 2026-10-27: Repo created.
 - 2026-10-27: KOReader crash-looping after Simple UI install. Disabled `simpleui` plugin and set `start_with` back to `filemanager` in `settings.reader.lua`. Config snapshot added under `config/` (tokens redacted; `network.lua` and `kosync.lua` left out).
 - 2026-10-27: Installed Project: Title v3.8.3 (for KOReader 2026.07.x) into `plugins/projecttitle.koplugin`. Disabled `coverbrowser` (required by Project: Title). Removed empty `Swipe_Animation.koplugin` folder. Settings backed up on device as `settings.reader.lua.pre-projecttitle`.
+- 2026-10-27: Switched from Project: Title to Bookshelf v6.0.4 (`plugins/bookshelf.koplugin`). Disabled `projecttitle`, re-enabled `coverbrowser` (Bookshelf needs it). `start_with` left as `filemanager` for the first boot. Settings backed up on device as `settings.reader.lua.pre-bookshelf`.

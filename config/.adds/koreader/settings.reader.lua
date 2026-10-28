@@ -1,5 +1,6 @@
 -- ./settings.reader.lua
 return {
+    ["aaaProjectTitle_initial_default_setup_done2"] = true,
     ["annas_download_dir"] = "/mnt/onboard/Books",
     ["annas_turn_off_wifi_after_download"] = false,
     ["auto_restore_wifi"] = true,
@@ -244,8 +245,8 @@ return {
         ["wifi_status"] = false,
     },
     ["footer_presets"] = {},
-    ["frontlight_intensity"] = 2,
-    ["frontlight_warmth"] = 40,
+    ["frontlight_intensity"] = 7,
+    ["frontlight_warmth"] = 100,
     ["ges_tap_interval_on_keyboard_ms"] = 0,
     ["highlight_dialog_position"] = "center",
     ["highlight_lighten_factor"] = 0.2,
@@ -463,9 +464,9 @@ return {
         ["tap_navigation"] = false,
     },
     ["plugins_disabled"] = {
+        ["projecttitle"] = true,
         ["filebrowser"] = true,
         ["simpleui"] = true,
-        ["coverbrowser"] = true,
     },
     ["profiles_autoexec"] = {},
     ["provider"] = {},
