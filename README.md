@@ -8,10 +8,10 @@ Fill these in from **Settings > Device information** on the Kobo:
 
 | | |
 |---|---|
-| Model | _TBD_ |
-| Firmware version | _TBD_ |
-| Simple UI version | _TBD_ |
-| Other mods installed | _TBD_ |
+| Model | Kobo Clara BW |
+| Firmware version | 4.46.23836 |
+| Simple UI version | 3.0.1 (installed via Storefront; currently disabled) |
+| Other mods installed | KOReader (built 2025-07-30) with Storefront, Readest, Rakuyomi, X-Ray and others |
 
 ## Layout
 
@@ -33,7 +33,7 @@ docs/      Troubleshooting notes and install steps
 | Problem | Status | Notes |
 |---|---|---|
 | Simple UI lags | Investigating | |
-| Simple UI crashes | Investigating | |
+| Simple UI crashes | Worked around | Onboarding screen crashes on B&W screen; plugin disabled. See [docs/simpleui-onboarding-crash.md](docs/simpleui-onboarding-crash.md) |
 | Kobo not showing up on Mac in stock firmware | Investigating | |
 
 ## Changelog
@@ -41,3 +41,4 @@ docs/      Troubleshooting notes and install steps
 Record every change made to the device here, with the date, so a bad change can be traced and undone.
 
 - 2026-10-27: Repo created.
+- 2026-10-27: KOReader crash-looping after Simple UI install. Disabled `simpleui` plugin and set `start_with` back to `filemanager` in `settings.reader.lua`. Config snapshot added under `config/` (tokens redacted; `network.lua` and `kosync.lua` left out).

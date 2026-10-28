@@ -1,0 +1,998 @@
+ffi.findlib: fbink_input [1]
+ffi.load: libs/libfbink_input.so.1
+[FBInk] /dev/input/event0: `gpio-keys` = KEY | SLEEP_COVER | ROTATION_EVENT
+[FBInk] /dev/input/event1: `cyttsp5_mt` = TOUCHSCREEN | TABLET | KEY | POWER_BUTTON
+[FBInk] /dev/input/event2: `bd71828-pwrkey` = KEY | POWER_BUTTON | ROTATION_EVENT
+[ko-input] Forked off fake event generator (pid: 4875)
+10/27/26-18:08:49 INFO  initializing for device Kobo_spaBW 
+10/27/26-18:08:49 INFO  framebuffer resolution: {
+  h = 1448,
+  w = 1072
+} --[[table: 0xb699d7e8]] 
+ffi.findlib: wrap-mupdf
+ffi.load: libs/libwrap-mupdf.so
+ffi.findlib: sqlite3 [0]
+ffi.load: libs/libsqlite3.so.0
+ffi.findlib: freetype [6]
+ffi.load: libs/libfreetype.so.6
+ffi.findlib: harfbuzz [0]
+ffi.load: libs/libharfbuzz.so.0
+ffi.findlib: zstd [1]
+ffi.load: libs/libzstd.so.1
+ffi.findlib: turbojpeg [0.5.0]
+ffi.load: libs/libturbojpeg.so.0.5.0
+ffi.findlib: crypto [57]
+ffi.load: libs/libcrypto.so.57
+ffi.findlib: archive [13]
+ffi.load: libs/libarchive.so.13
+10/27/26-18:08:49 INFO  Looking for plugins in directory: plugins 
+ffi.findlib: leptonica [6]
+ffi.load: libs/libleptonica.so.6
+ffi.findlib: k2pdfopt [2]
+ffi.load: libs/libk2pdfopt.so.2
+10/27/26-18:08:49 WARN  Error when loading plugins/Swipe_Animation.koplugin/main.lua cannot open plugins/Swipe_Animation.koplugin/main.lua: No such file or directory 
+10/27/26-18:08:50 WARN  PluginLoader: annas name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:50 WARN  PluginLoader: appstore name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:50 WARN  PluginLoader: comicreader name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:50 WARN  PluginLoader: filebrowserplus name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:50 WARN  PluginLoader: filesync name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:50 INFO  KoboPlugin: virtual library is active, applying patches 
+10/27/26-18:08:50 INFO  KoboPlugin: Patched ReaderUI:showReader to handle virtual library paths 
+10/27/26-18:08:50 INFO  KoboPlugin: Applying filesystem virtualization for Kobo kepub files 
+10/27/26-18:08:50 INFO  KoboPlugin: Applying DocumentRegistry monkey patches for Kobo kepub files 
+10/27/26-18:08:50 INFO  KoboPlugin: Applying DocSettings monkey patches for Kobo kepub files 
+10/27/26-18:08:50 INFO  KoboPlugin: Applying FileChooser monkey patches for Kobo virtual library 
+10/27/26-18:08:50 INFO  PathChooserExt: Applied monkey patches for bypass_virtual_library support 
+10/27/26-18:08:50 INFO  KoboPlugin: Applying ReaderPageMap monkey patches for Kobo kepub compatibility 
+10/27/26-18:08:50 INFO  KoboPlugin: ReaderPageMap patches applied for kepub compatibility 
+10/27/26-18:08:50 INFO  KoboPlugin: Applying ReaderUI monkey patches for Kobo kepub navigation 
+10/27/26-18:08:50 INFO  KoboPlugin: ReaderUI patches applied for kepub navigation 
+10/27/26-18:08:50 WARN  PluginLoader: kobo name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:50 WARN  PluginLoader: livelight name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:50 INFO  i18n: installed for lang=C 
+10/27/26-18:08:50 WARN  PluginLoader: panelsplus name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:50 INFO  setting up __gc proxy 
+10/27/26-18:08:50 WARN  PluginLoader: rakuyomi name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:50 WARN  PluginLoader: readest name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:50 WARN  PluginLoader: simpleui name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:51 INFO  Localization: Initializing Storefront localization... 
+10/27/26-18:08:51 INFO  Localization: Discovered 19 languages 
+10/27/26-18:08:51 INFO  Localization: Loading translations from: plugins/storefront.koplugin/languages/en.po 
+10/27/26-18:08:51 INFO  Localization: Loaded 845 translations 
+10/27/26-18:08:51 INFO  Localization: Initialized with system language: en 
+10/27/26-18:08:51 WARN  PluginLoader: webbrowser name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:51 WARN  PluginLoader: xray name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:51 INFO  Annas:Ota.getCurrentPluginVersion - Attempting to load version via dofile from: plugins/annas.koplugin//_meta.lua 
+10/27/26-18:08:51 INFO  Annas:Ota.getCurrentPluginVersion - Found version: v0.2.4 
+10/27/26-18:08:51 INFO  Annas: Init successful, version is: v0.2.4 
+10/27/26-18:08:51 INFO  KoboPlugin: Reading state sync disabled 
+10/27/26-18:08:51 INFO  KoboBluetooth: Initialized on MTK device 
+10/27/26-18:08:51 INFO  KoboBluetooth: Creating key_bindings with settings 
+10/27/26-18:08:51 INFO  BluetoothKeyBindings: Loaded bindings for 0 devices 
+10/27/26-18:08:51 INFO  KoboBluetooth: key_bindings setup with input_handler 
+10/27/26-18:08:51 INFO  DbusAdapter: Loading MTK adapter for MTK-based Kobo device 
+10/27/26-18:08:51 WARN  ReadestLocalSend: Nearby BookDrop error: could not find a free port.: plugins/readest.koplugin/library/localsend_helper.lua:119: Cannot assign requested address 
+CRE: RegisterFont: FT_New_Face failed: 0x2
+10/27/26-18:08:51 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/kobo/encrypted/arshuyuansongg30_bd.ttf> 
+CRE: RegisterFont: FT_New_Face failed: 0x2
+10/27/26-18:08:51 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/kobo/encrypted/ub_arming.ttf> 
+10/27/26-18:08:51 INFO  simpleui[diag]: init first_run= true onboarding_done= nil start_with= homescreen_simpleui has_document= false 
+10/27/26-18:08:52 INFO  Localization: Initializing Storefront localization... 
+10/27/26-18:08:52 INFO  Localization: Discovered 19 languages 
+10/27/26-18:08:52 INFO  Localization: Loading translations from: plugins/storefront.koplugin/languages/en.po 
+10/27/26-18:08:52 INFO  Localization: Loaded 845 translations 
+10/27/26-18:08:52 INFO  Localization: Initialized with system language: en 
+10/27/26-18:08:53 INFO  simpleui[diag]: first FM setupLayout start_with_hs= true 
+10/27/26-18:08:53 WARN  ReadestLocalSend: Nearby BookDrop error: could not find a free port.: plugins/readest.koplugin/library/localsend_helper.lua:119: Cannot assign requested address 
+10/27/26-18:08:53 INFO  simpleui[diag]: on_after_open onboarding_done= nil 
+10/27/26-18:08:53 INFO  simpleui[diag]: onboarding require ok= true  
+10/27/26-18:08:53 INFO  simpleui[diag]: Onboarding.show called 
+BB_invert_blit_from: incompatible bb (dst: BB8, src: BBRGB32) in file blitbuffer.c, line 2762!
+!!!!
+Uh oh, something went awry... (Crash n°4: 10/27/26 @ 18:08:54)
+Running FW 4.46.23836 on Linux 4.9.77 (#1 SMP PREEMPT e5649aba8-20251107T154948-B1107155140)
+Attempting to restart KOReader . . .
+!!!!
+---------------------------------------------
+                launching...
+  _  _____  ____                _
+ | |/ / _ \|  _ \ ___  __ _  __| | ___ _ __
+ | ' / | | | |_) / _ \/ _` |/ _` |/ _ \ '__|
+ | . \ |_| |  _ <  __/ (_| | (_| |  __/ |
+ |_|\_\___/|_| \_\___|\__,_|\__,_|\___|_|
+
+ It's a scroll... It's a codex... It's KOReader!
+
+ [*] Current time: 10/27/26-18:08:54
+has monolibtic? no (libs/libkoreader-monolibtic.so: cannot open shared object file: No such file or directory)
+lib_search_path: libs/?
+lib_basic_format: lib%s.so
+lib_version_format: lib%s.so.%s
+ [*] Version: v2026.07.2
+
+ffi.load: rt.so.1 (RTLD_GLOBAL)
+ffi.findlib: utf8proc [3]
+ffi.load: libs/libutf8proc.so.3
+ffi.findlib: blitbuffer
+ffi.load: libs/libblitbuffer.so
+ffi.findlib: fbink_input [1]
+ffi.load: libs/libfbink_input.so.1
+[FBInk] /dev/input/event0: `gpio-keys` = KEY | SLEEP_COVER | ROTATION_EVENT
+[FBInk] /dev/input/event1: `cyttsp5_mt` = TOUCHSCREEN | TABLET | KEY | POWER_BUTTON
+[FBInk] /dev/input/event2: `bd71828-pwrkey` = KEY | POWER_BUTTON | ROTATION_EVENT
+[ko-input] Forked off fake event generator (pid: 4903)
+10/27/26-18:08:54 INFO  initializing for device Kobo_spaBW 
+10/27/26-18:08:54 INFO  framebuffer resolution: {
+  h = 1448,
+  w = 1072
+} --[[table: 0xb69ddac0]] 
+ffi.findlib: wrap-mupdf
+ffi.load: libs/libwrap-mupdf.so
+ffi.findlib: sqlite3 [0]
+ffi.load: libs/libsqlite3.so.0
+ffi.findlib: freetype [6]
+ffi.load: libs/libfreetype.so.6
+ffi.findlib: harfbuzz [0]
+ffi.load: libs/libharfbuzz.so.0
+ffi.findlib: zstd [1]
+ffi.load: libs/libzstd.so.1
+ffi.findlib: crypto [57]
+ffi.load: libs/libcrypto.so.57
+ffi.findlib: archive [13]
+ffi.load: libs/libarchive.so.13
+10/27/26-18:08:55 INFO  Looking for plugins in directory: plugins 
+ffi.findlib: leptonica [6]
+ffi.load: libs/libleptonica.so.6
+ffi.findlib: k2pdfopt [2]
+ffi.load: libs/libk2pdfopt.so.2
+10/27/26-18:08:55 WARN  Error when loading plugins/Swipe_Animation.koplugin/main.lua cannot open plugins/Swipe_Animation.koplugin/main.lua: No such file or directory 
+10/27/26-18:08:55 WARN  PluginLoader: annas name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:55 WARN  PluginLoader: appstore name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:55 WARN  PluginLoader: comicreader name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:55 WARN  PluginLoader: filebrowserplus name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:55 WARN  PluginLoader: filesync name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:55 INFO  KoboPlugin: virtual library is active, applying patches 
+10/27/26-18:08:55 INFO  KoboPlugin: Patched ReaderUI:showReader to handle virtual library paths 
+10/27/26-18:08:55 INFO  KoboPlugin: Applying filesystem virtualization for Kobo kepub files 
+10/27/26-18:08:55 INFO  KoboPlugin: Applying DocumentRegistry monkey patches for Kobo kepub files 
+10/27/26-18:08:55 INFO  KoboPlugin: Applying DocSettings monkey patches for Kobo kepub files 
+10/27/26-18:08:55 INFO  KoboPlugin: Applying FileChooser monkey patches for Kobo virtual library 
+10/27/26-18:08:55 INFO  PathChooserExt: Applied monkey patches for bypass_virtual_library support 
+10/27/26-18:08:55 INFO  KoboPlugin: Applying ReaderPageMap monkey patches for Kobo kepub compatibility 
+10/27/26-18:08:55 INFO  KoboPlugin: ReaderPageMap patches applied for kepub compatibility 
+10/27/26-18:08:55 INFO  KoboPlugin: Applying ReaderUI monkey patches for Kobo kepub navigation 
+10/27/26-18:08:55 INFO  KoboPlugin: ReaderUI patches applied for kepub navigation 
+10/27/26-18:08:55 WARN  PluginLoader: kobo name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:55 WARN  PluginLoader: livelight name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:55 INFO  i18n: installed for lang=C 
+10/27/26-18:08:55 WARN  PluginLoader: panelsplus name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:55 INFO  setting up __gc proxy 
+10/27/26-18:08:55 WARN  PluginLoader: rakuyomi name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:55 WARN  PluginLoader: readest name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:56 WARN  PluginLoader: simpleui name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:56 INFO  Localization: Initializing Storefront localization... 
+10/27/26-18:08:56 INFO  Localization: Discovered 19 languages 
+10/27/26-18:08:56 INFO  Localization: Loading translations from: plugins/storefront.koplugin/languages/en.po 
+10/27/26-18:08:56 INFO  Localization: Loaded 845 translations 
+10/27/26-18:08:56 INFO  Localization: Initialized with system language: en 
+10/27/26-18:08:56 WARN  PluginLoader: webbrowser name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:56 WARN  PluginLoader: xray name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:08:56 INFO  Annas:Ota.getCurrentPluginVersion - Attempting to load version via dofile from: plugins/annas.koplugin//_meta.lua 
+10/27/26-18:08:56 INFO  Annas:Ota.getCurrentPluginVersion - Found version: v0.2.4 
+10/27/26-18:08:56 INFO  Annas: Init successful, version is: v0.2.4 
+10/27/26-18:08:56 INFO  KoboPlugin: Reading state sync disabled 
+10/27/26-18:08:56 INFO  KoboBluetooth: Initialized on MTK device 
+10/27/26-18:08:56 INFO  KoboBluetooth: Creating key_bindings with settings 
+10/27/26-18:08:56 INFO  BluetoothKeyBindings: Loaded bindings for 0 devices 
+10/27/26-18:08:56 INFO  KoboBluetooth: key_bindings setup with input_handler 
+10/27/26-18:08:56 INFO  DbusAdapter: Loading MTK adapter for MTK-based Kobo device 
+10/27/26-18:08:56 WARN  ReadestLocalSend: Nearby BookDrop error: could not find a free port.: plugins/readest.koplugin/library/localsend_helper.lua:119: Cannot assign requested address 
+CRE: RegisterFont: FT_New_Face failed: 0x2
+10/27/26-18:08:57 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/kobo/encrypted/arshuyuansongg30_bd.ttf> 
+CRE: RegisterFont: FT_New_Face failed: 0x2
+10/27/26-18:08:57 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/kobo/encrypted/ub_arming.ttf> 
+10/27/26-18:08:57 INFO  simpleui[diag]: init first_run= true onboarding_done= nil start_with= homescreen_simpleui has_document= false 
+10/27/26-18:08:57 INFO  Localization: Initializing Storefront localization... 
+10/27/26-18:08:57 INFO  Localization: Discovered 19 languages 
+10/27/26-18:08:57 INFO  Localization: Loading translations from: plugins/storefront.koplugin/languages/en.po 
+10/27/26-18:08:57 INFO  Localization: Loaded 845 translations 
+10/27/26-18:08:57 INFO  Localization: Initialized with system language: en 
+10/27/26-18:08:58 INFO  simpleui[diag]: first FM setupLayout start_with_hs= true 
+10/27/26-18:08:58 WARN  ReadestLocalSend: Nearby BookDrop error: could not find a free port.: plugins/readest.koplugin/library/localsend_helper.lua:119: Cannot assign requested address 
+10/27/26-18:08:59 INFO  simpleui[diag]: on_after_open onboarding_done= nil 
+10/27/26-18:08:59 INFO  simpleui[diag]: onboarding require ok= true  
+10/27/26-18:08:59 INFO  simpleui[diag]: Onboarding.show called 
+BB_invert_blit_from: incompatible bb (dst: BB8, src: BBRGB32) in file blitbuffer.c, line 2762!
+!!!!
+Uh oh, something went awry... (Crash n°5: 10/27/26 @ 18:08:59)
+Running FW 4.46.23836 on Linux 4.9.77 (#1 SMP PREEMPT e5649aba8-20251107T154948-B1107155140)
+Too many consecutive crashes, aborting . . .
+!!!! ! !!!!
+Restoring original fb bitdepth @ 32bpp & rotation @ 3
+[FBInk] Detected a Kobo Clara B&W (391 => Spa BW @ Mark 12)
+[FBInk] This device does not support HW inversion
+[FBInk] Enabled MediaTek quirks
+[FBInk] Clock tick frequency appears to be 100 Hz
+[FBInk] Screen density set to 300 dpi
+[FBInk] Variable fb info: 1072x1448, 8bpp @ rotation: 3 (Counter Clockwise, 270°)
+[FBInk] Fixed fb info: ID is "hwtcon", length of fb mem: 6243328 bytes & line length: 1072 bytes
+[FBInk] Canonical rotation: 0 (Upright, 0°)
+[FBInk] Fontsize set to 24x24 (IBM (Default) base glyph size: 8x8)
+[FBInk] Line length: 44 cols, Page size: 60 rows
+[FBInk] Vertical fit isn't perfect, shifting rows down by 4 pixels
+[FBInk] Framebuffer pixel format: Y8
+[FBDepth] Screen is 1072x1448 (1072x5824 addressable, fb says 1072x1448)
+[FBDepth] Buffer is mapped for 6243328 bytes with a scanline stride of 1072 bytes
+[FBDepth] Current rotation is already 3!
+[FBDepth] Switching fb to 32bpp @ rotation 3 . . .
+Updating bitdepth from 8bpp to 32bpp
+Sanitizing grayscale flag for bitdepths > 8bpp
+Disabled the MTK invert_fb flag
+Updating rotation from 3 (Counter Clockwise, 270°) to 3 (Counter Clockwise, 270°)
+Target device needs help to switch bitdepth...
+...updating MDP source pixel format via `/sys/devices/platform/14000000.hwtcon/mdp_src_format`
+Bitdepth is now 32bpp (grayscale: 0) @ rotate: 3 (Counter Clockwise, 270°)
+[FBInk] Detected a change in framebuffer bitdepth (8 -> 32)
+[FBInk] Reinitializing...
+[FBInk] Variable fb info: 1072x1448, 32bpp @ rotation: 3 (Counter Clockwise, 270°)
+[FBInk] Fixed fb info: ID is "hwtcon", length of fb mem: 6243328 bytes & line length: 4288 bytes
+[FBInk] Canonical rotation: 0 (Upright, 0°)
+[FBInk] Fontsize set to 24x24 (IBM (Default) base glyph size: 8x8)
+[FBInk] Line length: 44 cols, Page size: 60 rows
+[FBInk] Vertical fit isn't perfect, shifting rows down by 4 pixels
+[FBInk] Framebuffer pixel format: RGBA
+[FBDepth] Screen is 1072x1448 (1072x1456 addressable, fb says 1072x1448)
+[FBDepth] Buffer is mapped for 6243328 bytes with a scanline stride of 4288 bytes
+Original fb rotation is set @ 3
+Original fb bitdepth is set @ 32bpp
+Switching fb bitdepth to 8bpp & rotation to Portrait
+[FBInk] Detected a Kobo Clara B&W (391 => Spa BW @ Mark 12)
+[FBInk] This device does not support HW inversion
+[FBInk] Enabled MediaTek quirks
+[FBInk] Clock tick frequency appears to be 100 Hz
+[FBInk] Screen density set to 300 dpi
+[FBInk] Variable fb info: 1072x1448, 32bpp @ rotation: 3 (Counter Clockwise, 270°)
+[FBInk] Fixed fb info: ID is "hwtcon", length of fb mem: 6243328 bytes & line length: 4288 bytes
+[FBInk] Canonical rotation: 0 (Upright, 0°)
+[FBInk] Fontsize set to 24x24 (IBM (Default) base glyph size: 8x8)
+[FBInk] Line length: 44 cols, Page size: 60 rows
+[FBInk] Vertical fit isn't perfect, shifting rows down by 4 pixels
+[FBInk] Framebuffer pixel format: RGBA
+[FBDepth] Screen is 1072x1448 (1072x1456 addressable, fb says 1072x1448)
+[FBDepth] Buffer is mapped for 6243328 bytes with a scanline stride of 4288 bytes
+[FBDepth] Requested canonical rota 0 translates to 3 for this device
+[FBDepth] Current rotation is already 3!
+[FBDepth] Switching fb to 8bpp @ rotation 3 . . .
+Updating bitdepth from 32bpp to 8bpp
+Sanitizing grayscale flag for 8bpp
+Disabled the MTK invert_fb flag
+Updating rotation from 3 (Counter Clockwise, 270°) to 3 (Counter Clockwise, 270°)
+Target device needs help to switch bitdepth...
+...updating MDP source pixel format via `/sys/devices/platform/14000000.hwtcon/mdp_src_format`
+Bitdepth is now 8bpp (grayscale: 1) @ rotate: 3 (Counter Clockwise, 270°)
+[FBInk] Detected a change in framebuffer bitdepth (32 -> 8)
+[FBInk] Reinitializing...
+[FBInk] Variable fb info: 1072x1448, 8bpp @ rotation: 3 (Counter Clockwise, 270°)
+[FBInk] Fixed fb info: ID is "hwtcon", length of fb mem: 6243328 bytes & line length: 1072 bytes
+[FBInk] Canonical rotation: 0 (Upright, 0°)
+[FBInk] Fontsize set to 24x24 (IBM (Default) base glyph size: 8x8)
+[FBInk] Line length: 44 cols, Page size: 60 rows
+[FBInk] Vertical fit isn't perfect, shifting rows down by 4 pixels
+[FBInk] Framebuffer pixel format: Y8
+[FBDepth] Screen is 1072x1448 (1072x5824 addressable, fb says 1072x1448)
+[FBDepth] Buffer is mapped for 6243328 bytes with a scanline stride of 1072 bytes
+---------------------------------------------
+                launching...
+  _  _____  ____                _
+ | |/ / _ \|  _ \ ___  __ _  __| | ___ _ __
+ | ' / | | | |_) / _ \/ _` |/ _` |/ _ \ '__|
+ | . \ |_| |  _ <  __/ (_| | (_| |  __/ |
+ |_|\_\___/|_| \_\___|\__,_|\__,_|\___|_|
+
+ It's a scroll... It's a codex... It's KOReader!
+
+ [*] Current time: 10/27/26-18:15:48
+has monolibtic? no (libs/libkoreader-monolibtic.so: cannot open shared object file: No such file or directory)
+lib_search_path: libs/?
+lib_basic_format: lib%s.so
+lib_version_format: lib%s.so.%s
+ [*] Version: v2026.07.2
+
+ffi.load: rt.so.1 (RTLD_GLOBAL)
+ffi.findlib: utf8proc [3]
+ffi.load: libs/libutf8proc.so.3
+ffi.findlib: blitbuffer
+ffi.load: libs/libblitbuffer.so
+ffi.findlib: fbink_input [1]
+ffi.load: libs/libfbink_input.so.1
+[FBInk] /dev/input/event0: `gpio-keys` = KEY | SLEEP_COVER | ROTATION_EVENT
+[FBInk] /dev/input/event1: `cyttsp5_mt` = TOUCHSCREEN | TABLET | KEY | POWER_BUTTON
+[FBInk] /dev/input/event2: `bd71828-pwrkey` = KEY | POWER_BUTTON | ROTATION_EVENT
+[ko-input] Forked off fake event generator (pid: 6927)
+10/27/26-18:15:48 INFO  initializing for device Kobo_spaBW 
+10/27/26-18:15:48 INFO  framebuffer resolution: {
+  h = 1448,
+  w = 1072
+} --[[table: 0xb694e730]] 
+ffi.findlib: wrap-mupdf
+ffi.load: libs/libwrap-mupdf.so
+ffi.findlib: sqlite3 [0]
+ffi.load: libs/libsqlite3.so.0
+ffi.findlib: freetype [6]
+ffi.load: libs/libfreetype.so.6
+ffi.findlib: harfbuzz [0]
+ffi.load: libs/libharfbuzz.so.0
+ffi.findlib: zstd [1]
+ffi.load: libs/libzstd.so.1
+ffi.findlib: crypto [57]
+ffi.load: libs/libcrypto.so.57
+10/27/26-18:15:48 INFO  Kobo Wi-Fi: Left in an inconsistent state by launcher! 
+dhcpcd[6933]: dhcpcd not running
+10/27/26-18:15:49 INFO  Kobo Wi-Fi: disabling Wi-Fi 
+dhcpcd[6945]: dhcpcd not running
+OK
+[Tue Oct 27 18:15:49 EDT 2026] restore-wifi-async.sh: Restarting Wi-Fi
+ffi.findlib: archive [13]
+ffi.load: libs/libarchive.so.13
+10/27/26-18:15:49 INFO  Looking for plugins in directory: plugins 
+[enable-wifi.sh] Left fd 10 -> /mnt/onboard/.adds/koreader/enable-wifi.sh open
+[enable-wifi.sh] Left fd 3 -> /proc/6966/fd/3 => pipe:[17605] (temporary?) open
+ffi.findlib: leptonica [6]
+ffi.load: libs/libleptonica.so.6
+ffi.findlib: k2pdfopt [2]
+ffi.load: libs/libk2pdfopt.so.2
+10/27/26-18:15:49 WARN  Error when loading plugins/Swipe_Animation.koplugin/main.lua cannot open plugins/Swipe_Animation.koplugin/main.lua: No such file or directory 
+10/27/26-18:15:49 WARN  PluginLoader: annas name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:49 WARN  PluginLoader: appstore name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:49 WARN  PluginLoader: comicreader name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:49 WARN  PluginLoader: filebrowserplus name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:49 WARN  PluginLoader: filesync name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:50 INFO  KoboPlugin: virtual library is active, applying patches 
+10/27/26-18:15:50 INFO  KoboPlugin: Patched ReaderUI:showReader to handle virtual library paths 
+10/27/26-18:15:50 INFO  KoboPlugin: Applying filesystem virtualization for Kobo kepub files 
+10/27/26-18:15:50 INFO  KoboPlugin: Applying DocumentRegistry monkey patches for Kobo kepub files 
+10/27/26-18:15:50 INFO  KoboPlugin: Applying DocSettings monkey patches for Kobo kepub files 
+10/27/26-18:15:50 INFO  KoboPlugin: Applying FileChooser monkey patches for Kobo virtual library 
+10/27/26-18:15:50 INFO  PathChooserExt: Applied monkey patches for bypass_virtual_library support 
+10/27/26-18:15:50 INFO  KoboPlugin: Applying ReaderPageMap monkey patches for Kobo kepub compatibility 
+10/27/26-18:15:50 INFO  KoboPlugin: ReaderPageMap patches applied for kepub compatibility 
+10/27/26-18:15:50 INFO  KoboPlugin: Applying ReaderUI monkey patches for Kobo kepub navigation 
+10/27/26-18:15:50 INFO  KoboPlugin: ReaderUI patches applied for kepub navigation 
+10/27/26-18:15:50 WARN  PluginLoader: kobo name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:50 WARN  PluginLoader: livelight name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:50 INFO  i18n: installed for lang=C 
+10/27/26-18:15:50 WARN  PluginLoader: panelsplus name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:50 INFO  setting up __gc proxy 
+10/27/26-18:15:50 WARN  PluginLoader: rakuyomi name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:50 WARN  PluginLoader: readest name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:50 WARN  PluginLoader: simpleui name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:50 INFO  Localization: Initializing Storefront localization... 
+10/27/26-18:15:50 INFO  Localization: Discovered 19 languages 
+10/27/26-18:15:50 INFO  Localization: Loading translations from: plugins/storefront.koplugin/languages/en.po 
+10/27/26-18:15:50 INFO  Localization: Loaded 845 translations 
+10/27/26-18:15:50 INFO  Localization: Initialized with system language: en 
+10/27/26-18:15:50 WARN  PluginLoader: webbrowser name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:51 WARN  PluginLoader: xray name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:51 INFO  Annas:Ota.getCurrentPluginVersion - Attempting to load version via dofile from: plugins/annas.koplugin//_meta.lua 
+10/27/26-18:15:51 INFO  Annas:Ota.getCurrentPluginVersion - Found version: v0.2.4 
+10/27/26-18:15:51 INFO  Annas: Init successful, version is: v0.2.4 
+10/27/26-18:15:51 INFO  KoboPlugin: Reading state sync disabled 
+10/27/26-18:15:51 INFO  KoboBluetooth: Initialized on MTK device 
+10/27/26-18:15:51 INFO  KoboBluetooth: Creating key_bindings with settings 
+10/27/26-18:15:51 INFO  BluetoothKeyBindings: Loaded bindings for 0 devices 
+10/27/26-18:15:51 INFO  KoboBluetooth: key_bindings setup with input_handler 
+10/27/26-18:15:51 INFO  DbusAdapter: Loading MTK adapter for MTK-based Kobo device 
+CRE: RegisterFont: FT_New_Face failed: 0x2
+10/27/26-18:15:51 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/kobo/encrypted/arshuyuansongg30_bd.ttf> 
+CRE: RegisterFont: FT_New_Face failed: 0x2
+10/27/26-18:15:51 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/kobo/encrypted/ub_arming.ttf> 
+10/27/26-18:15:51 INFO  simpleui[diag]: init first_run= true onboarding_done= nil start_with= homescreen_simpleui has_document= false 
+10/27/26-18:15:51 INFO  Localization: Initializing Storefront localization... 
+10/27/26-18:15:51 INFO  Localization: Discovered 19 languages 
+10/27/26-18:15:51 INFO  Localization: Loading translations from: plugins/storefront.koplugin/languages/en.po 
+10/27/26-18:15:51 INFO  Localization: Loaded 845 translations 
+10/27/26-18:15:51 INFO  Localization: Initialized with system language: en 
+10/27/26-18:15:52 INFO  simpleui[diag]: first FM setupLayout start_with_hs= true 
+10/27/26-18:15:53 INFO  simpleui[diag]: on_after_open onboarding_done= nil 
+10/27/26-18:15:53 INFO  simpleui[diag]: onboarding require ok= true  
+10/27/26-18:15:53 INFO  simpleui[diag]: Onboarding.show called 
+BB_invert_blit_from: incompatible bb (dst: BB8, src: BBRGB32) in file blitbuffer.c, line 2762!
+!!!!
+Uh oh, something went awry... (Crash n°1: 10/27/26 @ 18:15:54)
+Running FW 4.46.23836 on Linux 4.9.77 (#1 SMP PREEMPT e5649aba8-20251107T154948-B1107155140)
+Attempting to restart KOReader . . .
+!!!!
+---------------------------------------------
+                launching...
+  _  _____  ____                _
+ | |/ / _ \|  _ \ ___  __ _  __| | ___ _ __
+ | ' / | | | |_) / _ \/ _` |/ _` |/ _ \ '__|
+ | . \ |_| |  _ <  __/ (_| | (_| |  __/ |
+ |_|\_\___/|_| \_\___|\__,_|\__,_|\___|_|
+
+ It's a scroll... It's a codex... It's KOReader!
+
+ [*] Current time: 10/27/26-18:15:56
+has monolibtic? no (libs/libkoreader-monolibtic.so: cannot open shared object file: No such file or directory)
+lib_search_path: libs/?
+lib_basic_format: lib%s.so
+lib_version_format: lib%s.so.%s
+ [*] Version: v2026.07.2
+
+ffi.load: rt.so.1 (RTLD_GLOBAL)
+ffi.findlib: utf8proc [3]
+ffi.load: libs/libutf8proc.so.3
+ffi.findlib: blitbuffer
+ffi.load: libs/libblitbuffer.so
+ffi.findlib: fbink_input [1]
+ffi.load: libs/libfbink_input.so.1
+[FBInk] /dev/input/event0: `gpio-keys` = KEY | SLEEP_COVER | ROTATION_EVENT
+[FBInk] /dev/input/event1: `cyttsp5_mt` = TOUCHSCREEN | TABLET | KEY | POWER_BUTTON
+[FBInk] /dev/input/event2: `bd71828-pwrkey` = KEY | POWER_BUTTON | ROTATION_EVENT
+[ko-input] Forked off fake event generator (pid: 7067)
+10/27/26-18:15:56 INFO  initializing for device Kobo_spaBW 
+10/27/26-18:15:56 INFO  framebuffer resolution: {
+  h = 1448,
+  w = 1072
+} --[[table: 0xb696f6a0]] 
+ffi.findlib: wrap-mupdf
+ffi.load: libs/libwrap-mupdf.so
+ffi.findlib: sqlite3 [0]
+ffi.load: libs/libsqlite3.so.0
+ffi.findlib: freetype [6]
+ffi.load: libs/libfreetype.so.6
+ffi.findlib: harfbuzz [0]
+ffi.load: libs/libharfbuzz.so.0
+ffi.findlib: zstd [1]
+ffi.load: libs/libzstd.so.1
+ffi.findlib: crypto [57]
+ffi.load: libs/libcrypto.so.57
+10/27/26-18:15:56 INFO  Kobo Wi-Fi: Left in an inconsistent state by launcher! 
+dhcpcd[7079]: dhcpcd not running
+10/27/26-18:15:57 INFO  Kobo Wi-Fi: disabling Wi-Fi 
+dhcpcd[7094]: dhcpcd not running
+OK
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+ffi.findlib: archive [13]
+ffi.load: libs/libarchive.so.13
+[Tue Oct 27 18:15:57 EDT 2026] restore-wifi-async.sh: Restarting Wi-Fi
+10/27/26-18:15:57 INFO  Looking for plugins in directory: plugins 
+[enable-wifi.sh] Left fd 10 -> /mnt/onboard/.adds/koreader/enable-wifi.sh open
+[enable-wifi.sh] Left fd 3 -> /proc/7118/fd/3 => pipe:[17863] (temporary?) open
+ffi.findlib: leptonica [6]
+ffi.load: libs/libleptonica.so.6
+ffi.findlib: k2pdfopt [2]
+ffi.load: libs/libk2pdfopt.so.2
+10/27/26-18:15:57 WARN  Error when loading plugins/Swipe_Animation.koplugin/main.lua cannot open plugins/Swipe_Animation.koplugin/main.lua: No such file or directory 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:15:57 WARN  PluginLoader: annas name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:15:57 WARN  PluginLoader: appstore name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:57 WARN  PluginLoader: comicreader name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:57 WARN  PluginLoader: filebrowserplus name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:57 WARN  PluginLoader: filesync name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:58 INFO  KoboPlugin: virtual library is active, applying patches 
+10/27/26-18:15:58 INFO  KoboPlugin: Patched ReaderUI:showReader to handle virtual library paths 
+10/27/26-18:15:58 INFO  KoboPlugin: Applying filesystem virtualization for Kobo kepub files 
+10/27/26-18:15:58 INFO  KoboPlugin: Applying DocumentRegistry monkey patches for Kobo kepub files 
+10/27/26-18:15:58 INFO  KoboPlugin: Applying DocSettings monkey patches for Kobo kepub files 
+10/27/26-18:15:58 INFO  KoboPlugin: Applying FileChooser monkey patches for Kobo virtual library 
+10/27/26-18:15:58 INFO  PathChooserExt: Applied monkey patches for bypass_virtual_library support 
+10/27/26-18:15:58 INFO  KoboPlugin: Applying ReaderPageMap monkey patches for Kobo kepub compatibility 
+10/27/26-18:15:58 INFO  KoboPlugin: ReaderPageMap patches applied for kepub compatibility 
+10/27/26-18:15:58 INFO  KoboPlugin: Applying ReaderUI monkey patches for Kobo kepub navigation 
+10/27/26-18:15:58 INFO  KoboPlugin: ReaderUI patches applied for kepub navigation 
+10/27/26-18:15:58 WARN  PluginLoader: kobo name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:58 WARN  PluginLoader: livelight name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:15:58 INFO  i18n: installed for lang=C 
+10/27/26-18:15:58 WARN  PluginLoader: panelsplus name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:58 INFO  setting up __gc proxy 
+10/27/26-18:15:58 WARN  PluginLoader: rakuyomi name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:58 WARN  PluginLoader: readest name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:15:58 WARN  PluginLoader: simpleui name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:15:58 INFO  Localization: Initializing Storefront localization... 
+10/27/26-18:15:58 INFO  Localization: Discovered 19 languages 
+10/27/26-18:15:58 INFO  Localization: Loading translations from: plugins/storefront.koplugin/languages/en.po 
+10/27/26-18:15:58 INFO  Localization: Loaded 845 translations 
+10/27/26-18:15:58 INFO  Localization: Initialized with system language: en 
+10/27/26-18:15:58 WARN  PluginLoader: webbrowser name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:15:59 WARN  PluginLoader: xray name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:15:59 INFO  Annas:Ota.getCurrentPluginVersion - Attempting to load version via dofile from: plugins/annas.koplugin//_meta.lua 
+10/27/26-18:15:59 INFO  Annas:Ota.getCurrentPluginVersion - Found version: v0.2.4 
+10/27/26-18:15:59 INFO  Annas: Init successful, version is: v0.2.4 
+10/27/26-18:15:59 INFO  KoboPlugin: Reading state sync disabled 
+10/27/26-18:15:59 INFO  KoboBluetooth: Initialized on MTK device 
+10/27/26-18:15:59 INFO  KoboBluetooth: Creating key_bindings with settings 
+10/27/26-18:15:59 INFO  BluetoothKeyBindings: Loaded bindings for 0 devices 
+10/27/26-18:15:59 INFO  KoboBluetooth: key_bindings setup with input_handler 
+10/27/26-18:15:59 INFO  DbusAdapter: Loading MTK adapter for MTK-based Kobo device 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+CRE: RegisterFont: FT_New_Face failed: 0x2
+10/27/26-18:15:59 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/kobo/encrypted/arshuyuansongg30_bd.ttf> 
+CRE: RegisterFont: FT_New_Face failed: 0x2
+10/27/26-18:15:59 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/kobo/encrypted/ub_arming.ttf> 
+10/27/26-18:15:59 INFO  simpleui[diag]: init first_run= true onboarding_done= nil start_with= homescreen_simpleui has_document= false 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:15:59 INFO  Localization: Initializing Storefront localization... 
+10/27/26-18:15:59 INFO  Localization: Discovered 19 languages 
+10/27/26-18:15:59 INFO  Localization: Loading translations from: plugins/storefront.koplugin/languages/en.po 
+10/27/26-18:15:59 INFO  Localization: Loaded 845 translations 
+10/27/26-18:15:59 INFO  Localization: Initialized with system language: en 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:00 INFO  simpleui[diag]: first FM setupLayout start_with_hs= true 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:01 INFO  simpleui[diag]: on_after_open onboarding_done= nil 
+10/27/26-18:16:01 INFO  simpleui[diag]: onboarding require ok= true  
+10/27/26-18:16:01 INFO  simpleui[diag]: Onboarding.show called 
+BB_invert_blit_from: incompatible bb (dst: BB8, src: BBRGB32) in file blitbuffer.c, line 2762!
+!!!!
+Uh oh, something went awry... (Crash n°2: 10/27/26 @ 18:16:02)
+Running FW 4.46.23836 on Linux 4.9.77 (#1 SMP PREEMPT e5649aba8-20251107T154948-B1107155140)
+Attempting to restart KOReader . . .
+!!!!
+---------------------------------------------
+                launching...
+  _  _____  ____                _
+ | |/ / _ \|  _ \ ___  __ _  __| | ___ _ __
+ | ' / | | | |_) / _ \/ _` |/ _` |/ _ \ '__|
+ | . \ |_| |  _ <  __/ (_| | (_| |  __/ |
+ |_|\_\___/|_| \_\___|\__,_|\__,_|\___|_|
+
+ It's a scroll... It's a codex... It's KOReader!
+
+ [*] Current time: 10/27/26-18:16:02
+has monolibtic? no (libs/libkoreader-monolibtic.so: cannot open shared object file: No such file or directory)
+lib_search_path: libs/?
+lib_basic_format: lib%s.so
+lib_version_format: lib%s.so.%s
+ [*] Version: v2026.07.2
+
+ffi.load: rt.so.1 (RTLD_GLOBAL)
+ffi.findlib: utf8proc [3]
+ffi.load: libs/libutf8proc.so.3
+ffi.findlib: blitbuffer
+ffi.load: libs/libblitbuffer.so
+ffi.findlib: fbink_input [1]
+ffi.load: libs/libfbink_input.so.1
+[FBInk] /dev/input/event0: `gpio-keys` = KEY | SLEEP_COVER | ROTATION_EVENT
+[FBInk] /dev/input/event1: `cyttsp5_mt` = TOUCHSCREEN | TABLET | KEY | POWER_BUTTON
+[FBInk] /dev/input/event2: `bd71828-pwrkey` = KEY | POWER_BUTTON | ROTATION_EVENT
+[ko-input] Forked off fake event generator (pid: 7251)
+10/27/26-18:16:02 INFO  initializing for device Kobo_spaBW 
+10/27/26-18:16:02 INFO  framebuffer resolution: {
+  h = 1448,
+  w = 1072
+} --[[table: 0xb6a0f770]] 
+ffi.findlib: wrap-mupdf
+ffi.load: libs/libwrap-mupdf.so
+ffi.findlib: sqlite3 [0]
+ffi.load: libs/libsqlite3.so.0
+ffi.findlib: freetype [6]
+ffi.load: libs/libfreetype.so.6
+ffi.findlib: harfbuzz [0]
+ffi.load: libs/libharfbuzz.so.0
+ffi.findlib: zstd [1]
+ffi.load: libs/libzstd.so.1
+ffi.findlib: crypto [57]
+ffi.load: libs/libcrypto.so.57
+10/27/26-18:16:02 INFO  Kobo Wi-Fi: Left in an inconsistent state by launcher! 
+dhcpcd[7266]: dhcpcd not running
+10/27/26-18:16:02 INFO  Kobo Wi-Fi: disabling Wi-Fi 
+dhcpcd[7278]: dhcpcd not running
+OK
+[Tue Oct 27 18:16:03 EDT 2026] restore-wifi-async.sh: Restarting Wi-Fi
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+ffi.findlib: archive [13]
+ffi.load: libs/libarchive.so.13
+10/27/26-18:16:03 INFO  Looking for plugins in directory: plugins 
+[enable-wifi.sh] Left fd 10 -> /mnt/onboard/.adds/koreader/enable-wifi.sh open
+[enable-wifi.sh] Left fd 3 -> /proc/7304/fd/3 => pipe:[18137] (temporary?) open
+ffi.findlib: leptonica [6]
+ffi.load: libs/libleptonica.so.6
+ffi.findlib: k2pdfopt [2]
+ffi.load: libs/libk2pdfopt.so.2
+10/27/26-18:16:03 WARN  Error when loading plugins/Swipe_Animation.koplugin/main.lua cannot open plugins/Swipe_Animation.koplugin/main.lua: No such file or directory 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:03 WARN  PluginLoader: annas name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:03 WARN  PluginLoader: appstore name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:03 WARN  PluginLoader: comicreader name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:03 WARN  PluginLoader: filebrowserplus name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:03 WARN  PluginLoader: filesync name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:03 INFO  KoboPlugin: virtual library is active, applying patches 
+10/27/26-18:16:03 INFO  KoboPlugin: Patched ReaderUI:showReader to handle virtual library paths 
+10/27/26-18:16:03 INFO  KoboPlugin: Applying filesystem virtualization for Kobo kepub files 
+10/27/26-18:16:03 INFO  KoboPlugin: Applying DocumentRegistry monkey patches for Kobo kepub files 
+10/27/26-18:16:03 INFO  KoboPlugin: Applying DocSettings monkey patches for Kobo kepub files 
+10/27/26-18:16:03 INFO  KoboPlugin: Applying FileChooser monkey patches for Kobo virtual library 
+10/27/26-18:16:03 INFO  PathChooserExt: Applied monkey patches for bypass_virtual_library support 
+10/27/26-18:16:03 INFO  KoboPlugin: Applying ReaderPageMap monkey patches for Kobo kepub compatibility 
+10/27/26-18:16:03 INFO  KoboPlugin: ReaderPageMap patches applied for kepub compatibility 
+10/27/26-18:16:03 INFO  KoboPlugin: Applying ReaderUI monkey patches for Kobo kepub navigation 
+10/27/26-18:16:03 INFO  KoboPlugin: ReaderUI patches applied for kepub navigation 
+10/27/26-18:16:03 WARN  PluginLoader: kobo name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:03 WARN  PluginLoader: livelight name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:04 INFO  i18n: installed for lang=C 
+10/27/26-18:16:04 WARN  PluginLoader: panelsplus name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:04 INFO  setting up __gc proxy 
+10/27/26-18:16:04 WARN  PluginLoader: rakuyomi name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:04 WARN  PluginLoader: readest name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:04 WARN  PluginLoader: simpleui name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:04 INFO  Localization: Initializing Storefront localization... 
+10/27/26-18:16:04 INFO  Localization: Discovered 19 languages 
+10/27/26-18:16:04 INFO  Localization: Loading translations from: plugins/storefront.koplugin/languages/en.po 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:04 INFO  Localization: Loaded 845 translations 
+10/27/26-18:16:04 INFO  Localization: Initialized with system language: en 
+10/27/26-18:16:04 WARN  PluginLoader: webbrowser name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:05 WARN  PluginLoader: xray name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:05 INFO  Annas:Ota.getCurrentPluginVersion - Attempting to load version via dofile from: plugins/annas.koplugin//_meta.lua 
+10/27/26-18:16:05 INFO  Annas:Ota.getCurrentPluginVersion - Found version: v0.2.4 
+10/27/26-18:16:05 INFO  Annas: Init successful, version is: v0.2.4 
+10/27/26-18:16:05 INFO  KoboPlugin: Reading state sync disabled 
+10/27/26-18:16:05 INFO  KoboBluetooth: Initialized on MTK device 
+10/27/26-18:16:05 INFO  KoboBluetooth: Creating key_bindings with settings 
+10/27/26-18:16:05 INFO  BluetoothKeyBindings: Loaded bindings for 0 devices 
+10/27/26-18:16:05 INFO  KoboBluetooth: key_bindings setup with input_handler 
+10/27/26-18:16:05 INFO  DbusAdapter: Loading MTK adapter for MTK-based Kobo device 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+CRE: RegisterFont: FT_New_Face failed: 0x2
+10/27/26-18:16:05 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/kobo/encrypted/arshuyuansongg30_bd.ttf> 
+CRE: RegisterFont: FT_New_Face failed: 0x2
+10/27/26-18:16:05 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/kobo/encrypted/ub_arming.ttf> 
+10/27/26-18:16:05 INFO  simpleui[diag]: init first_run= true onboarding_done= nil start_with= homescreen_simpleui has_document= false 
+10/27/26-18:16:05 INFO  Localization: Initializing Storefront localization... 
+10/27/26-18:16:05 INFO  Localization: Discovered 19 languages 
+10/27/26-18:16:05 INFO  Localization: Loading translations from: plugins/storefront.koplugin/languages/en.po 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:05 INFO  Localization: Loaded 845 translations 
+10/27/26-18:16:05 INFO  Localization: Initialized with system language: en 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:06 INFO  simpleui[diag]: first FM setupLayout start_with_hs= true 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:07 INFO  simpleui[diag]: on_after_open onboarding_done= nil 
+10/27/26-18:16:07 INFO  simpleui[diag]: onboarding require ok= true  
+10/27/26-18:16:07 INFO  simpleui[diag]: Onboarding.show called 
+BB_invert_blit_from: incompatible bb (dst: BB8, src: BBRGB32) in file blitbuffer.c, line 2762!
+!!!!
+Uh oh, something went awry... (Crash n°3: 10/27/26 @ 18:16:08)
+Running FW 4.46.23836 on Linux 4.9.77 (#1 SMP PREEMPT e5649aba8-20251107T154948-B1107155140)
+Attempting to restart KOReader . . .
+!!!!
+---------------------------------------------
+                launching...
+  _  _____  ____                _
+ | |/ / _ \|  _ \ ___  __ _  __| | ___ _ __
+ | ' / | | | |_) / _ \/ _` |/ _` |/ _ \ '__|
+ | . \ |_| |  _ <  __/ (_| | (_| |  __/ |
+ |_|\_\___/|_| \_\___|\__,_|\__,_|\___|_|
+
+ It's a scroll... It's a codex... It's KOReader!
+
+ [*] Current time: 10/27/26-18:16:08
+has monolibtic? no (libs/libkoreader-monolibtic.so: cannot open shared object file: No such file or directory)
+lib_search_path: libs/?
+lib_basic_format: lib%s.so
+lib_version_format: lib%s.so.%s
+ [*] Version: v2026.07.2
+
+ffi.load: rt.so.1 (RTLD_GLOBAL)
+ffi.findlib: utf8proc [3]
+ffi.load: libs/libutf8proc.so.3
+ffi.findlib: blitbuffer
+ffi.load: libs/libblitbuffer.so
+ffi.findlib: fbink_input [1]
+ffi.load: libs/libfbink_input.so.1
+[FBInk] /dev/input/event0: `gpio-keys` = KEY | SLEEP_COVER | ROTATION_EVENT
+[FBInk] /dev/input/event1: `cyttsp5_mt` = TOUCHSCREEN | TABLET | KEY | POWER_BUTTON
+[FBInk] /dev/input/event2: `bd71828-pwrkey` = KEY | POWER_BUTTON | ROTATION_EVENT
+[ko-input] Forked off fake event generator (pid: 7440)
+10/27/26-18:16:08 INFO  initializing for device Kobo_spaBW 
+10/27/26-18:16:08 INFO  framebuffer resolution: {
+  h = 1448,
+  w = 1072
+} --[[table: 0xb695c310]] 
+ffi.findlib: wrap-mupdf
+ffi.load: libs/libwrap-mupdf.so
+ffi.findlib: sqlite3 [0]
+ffi.load: libs/libsqlite3.so.0
+ffi.findlib: freetype [6]
+ffi.load: libs/libfreetype.so.6
+ffi.findlib: harfbuzz [0]
+ffi.load: libs/libharfbuzz.so.0
+ffi.findlib: zstd [1]
+ffi.load: libs/libzstd.so.1
+ffi.findlib: crypto [57]
+ffi.load: libs/libcrypto.so.57
+10/27/26-18:16:08 INFO  Kobo Wi-Fi: Left in an inconsistent state by launcher! 
+dhcpcd[7455]: dhcpcd not running
+10/27/26-18:16:08 INFO  Kobo Wi-Fi: disabling Wi-Fi 
+dhcpcd[7470]: dhcpcd not running
+OK
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+[Tue Oct 27 18:16:09 EDT 2026] restore-wifi-async.sh: Restarting Wi-Fi
+ffi.findlib: archive [13]
+ffi.load: libs/libarchive.so.13
+10/27/26-18:16:09 INFO  Looking for plugins in directory: plugins 
+[enable-wifi.sh] Left fd 10 -> /mnt/onboard/.adds/koreader/enable-wifi.sh open
+[enable-wifi.sh] Left fd 3 -> /proc/7496/fd/3 => pipe:[18415] (temporary?) open
+ffi.findlib: leptonica [6]
+ffi.load: libs/libleptonica.so.6
+ffi.findlib: k2pdfopt [2]
+ffi.load: libs/libk2pdfopt.so.2
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:09 WARN  Error when loading plugins/Swipe_Animation.koplugin/main.lua cannot open plugins/Swipe_Animation.koplugin/main.lua: No such file or directory 
+10/27/26-18:16:09 WARN  PluginLoader: annas name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:09 WARN  PluginLoader: appstore name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:09 WARN  PluginLoader: comicreader name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:09 WARN  PluginLoader: filebrowserplus name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:09 WARN  PluginLoader: filesync name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:09 INFO  KoboPlugin: virtual library is active, applying patches 
+10/27/26-18:16:09 INFO  KoboPlugin: Patched ReaderUI:showReader to handle virtual library paths 
+10/27/26-18:16:09 INFO  KoboPlugin: Applying filesystem virtualization for Kobo kepub files 
+10/27/26-18:16:09 INFO  KoboPlugin: Applying DocumentRegistry monkey patches for Kobo kepub files 
+10/27/26-18:16:09 INFO  KoboPlugin: Applying DocSettings monkey patches for Kobo kepub files 
+10/27/26-18:16:09 INFO  KoboPlugin: Applying FileChooser monkey patches for Kobo virtual library 
+10/27/26-18:16:09 INFO  PathChooserExt: Applied monkey patches for bypass_virtual_library support 
+10/27/26-18:16:09 INFO  KoboPlugin: Applying ReaderPageMap monkey patches for Kobo kepub compatibility 
+10/27/26-18:16:09 INFO  KoboPlugin: ReaderPageMap patches applied for kepub compatibility 
+10/27/26-18:16:09 INFO  KoboPlugin: Applying ReaderUI monkey patches for Kobo kepub navigation 
+10/27/26-18:16:09 INFO  KoboPlugin: ReaderUI patches applied for kepub navigation 
+10/27/26-18:16:09 WARN  PluginLoader: kobo name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:09 WARN  PluginLoader: livelight name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:10 INFO  i18n: installed for lang=C 
+10/27/26-18:16:10 WARN  PluginLoader: panelsplus name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:10 INFO  setting up __gc proxy 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:10 WARN  PluginLoader: rakuyomi name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:10 WARN  PluginLoader: readest name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:10 WARN  PluginLoader: simpleui name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:10 INFO  Localization: Initializing Storefront localization... 
+10/27/26-18:16:10 INFO  Localization: Discovered 19 languages 
+10/27/26-18:16:10 INFO  Localization: Loading translations from: plugins/storefront.koplugin/languages/en.po 
+10/27/26-18:16:10 INFO  Localization: Loaded 845 translations 
+10/27/26-18:16:10 INFO  Localization: Initialized with system language: en 
+10/27/26-18:16:10 WARN  PluginLoader: webbrowser name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:11 WARN  PluginLoader: xray name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:11 INFO  Annas:Ota.getCurrentPluginVersion - Attempting to load version via dofile from: plugins/annas.koplugin//_meta.lua 
+10/27/26-18:16:11 INFO  Annas:Ota.getCurrentPluginVersion - Found version: v0.2.4 
+10/27/26-18:16:11 INFO  Annas: Init successful, version is: v0.2.4 
+10/27/26-18:16:11 INFO  KoboPlugin: Reading state sync disabled 
+10/27/26-18:16:11 INFO  KoboBluetooth: Initialized on MTK device 
+10/27/26-18:16:11 INFO  KoboBluetooth: Creating key_bindings with settings 
+10/27/26-18:16:11 INFO  BluetoothKeyBindings: Loaded bindings for 0 devices 
+10/27/26-18:16:11 INFO  KoboBluetooth: key_bindings setup with input_handler 
+10/27/26-18:16:11 INFO  DbusAdapter: Loading MTK adapter for MTK-based Kobo device 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+CRE: RegisterFont: FT_New_Face failed: 0x2
+10/27/26-18:16:11 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/kobo/encrypted/arshuyuansongg30_bd.ttf> 
+CRE: RegisterFont: FT_New_Face failed: 0x2
+10/27/26-18:16:11 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/kobo/encrypted/ub_arming.ttf> 
+10/27/26-18:16:11 INFO  simpleui[diag]: init first_run= true onboarding_done= nil start_with= homescreen_simpleui has_document= false 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:11 INFO  Localization: Initializing Storefront localization... 
+10/27/26-18:16:11 INFO  Localization: Discovered 19 languages 
+10/27/26-18:16:11 INFO  Localization: Loading translations from: plugins/storefront.koplugin/languages/en.po 
+10/27/26-18:16:11 INFO  Localization: Loaded 845 translations 
+10/27/26-18:16:11 INFO  Localization: Initialized with system language: en 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:12 INFO  simpleui[diag]: first FM setupLayout start_with_hs= true 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:13 INFO  simpleui[diag]: on_after_open onboarding_done= nil 
+10/27/26-18:16:13 INFO  simpleui[diag]: onboarding require ok= true  
+10/27/26-18:16:13 INFO  simpleui[diag]: Onboarding.show called 
+BB_invert_blit_from: incompatible bb (dst: BB8, src: BBRGB32) in file blitbuffer.c, line 2762!
+!!!!
+Uh oh, something went awry... (Crash n°4: 10/27/26 @ 18:16:14)
+Running FW 4.46.23836 on Linux 4.9.77 (#1 SMP PREEMPT e5649aba8-20251107T154948-B1107155140)
+Attempting to restart KOReader . . .
+!!!!
+---------------------------------------------
+                launching...
+  _  _____  ____                _
+ | |/ / _ \|  _ \ ___  __ _  __| | ___ _ __
+ | ' / | | | |_) / _ \/ _` |/ _` |/ _ \ '__|
+ | . \ |_| |  _ <  __/ (_| | (_| |  __/ |
+ |_|\_\___/|_| \_\___|\__,_|\__,_|\___|_|
+
+ It's a scroll... It's a codex... It's KOReader!
+
+ [*] Current time: 10/27/26-18:16:14
+has monolibtic? no (libs/libkoreader-monolibtic.so: cannot open shared object file: No such file or directory)
+lib_search_path: libs/?
+lib_basic_format: lib%s.so
+lib_version_format: lib%s.so.%s
+ [*] Version: v2026.07.2
+
+ffi.load: rt.so.1 (RTLD_GLOBAL)
+ffi.findlib: utf8proc [3]
+ffi.load: libs/libutf8proc.so.3
+ffi.findlib: blitbuffer
+ffi.load: libs/libblitbuffer.so
+ffi.findlib: fbink_input [1]
+ffi.load: libs/libfbink_input.so.1
+[FBInk] /dev/input/event0: `gpio-keys` = KEY | SLEEP_COVER | ROTATION_EVENT
+[FBInk] /dev/input/event1: `cyttsp5_mt` = TOUCHSCREEN | TABLET | KEY | POWER_BUTTON
+[FBInk] /dev/input/event2: `bd71828-pwrkey` = KEY | POWER_BUTTON | ROTATION_EVENT
+[ko-input] Forked off fake event generator (pid: 7642)
+10/27/26-18:16:14 INFO  initializing for device Kobo_spaBW 
+10/27/26-18:16:14 INFO  framebuffer resolution: {
+  h = 1448,
+  w = 1072
+} --[[table: 0xb69389a0]] 
+ffi.findlib: wrap-mupdf
+ffi.load: libs/libwrap-mupdf.so
+ffi.findlib: sqlite3 [0]
+ffi.load: libs/libsqlite3.so.0
+ffi.findlib: freetype [6]
+ffi.load: libs/libfreetype.so.6
+ffi.findlib: harfbuzz [0]
+ffi.load: libs/libharfbuzz.so.0
+ffi.findlib: zstd [1]
+ffi.load: libs/libzstd.so.1
+ffi.findlib: crypto [57]
+ffi.load: libs/libcrypto.so.57
+10/27/26-18:16:14 INFO  Kobo Wi-Fi: Left in an inconsistent state by launcher! 
+dhcpcd[7663]: dhcpcd not running
+10/27/26-18:16:14 INFO  Kobo Wi-Fi: disabling Wi-Fi 
+dhcpcd[7678]: dhcpcd not running
+OK
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+[Tue Oct 27 18:16:15 EDT 2026] restore-wifi-async.sh: Restarting Wi-Fi
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+ffi.findlib: archive [13]
+ffi.load: libs/libarchive.so.13
+[enable-wifi.sh] Left fd 10 -> /mnt/onboard/.adds/koreader/enable-wifi.sh open
+10/27/26-18:16:15 INFO  Looking for plugins in directory: plugins 
+[enable-wifi.sh] Left fd 3 -> /proc/7709/fd/3 => pipe:[18737] (temporary?) open
+ffi.findlib: leptonica [6]
+ffi.load: libs/libleptonica.so.6
+ffi.findlib: k2pdfopt [2]
+ffi.load: libs/libk2pdfopt.so.2
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:15 WARN  Error when loading plugins/Swipe_Animation.koplugin/main.lua cannot open plugins/Swipe_Animation.koplugin/main.lua: No such file or directory 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:15 WARN  PluginLoader: annas name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:15 WARN  PluginLoader: appstore name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:15 WARN  PluginLoader: comicreader name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:15 WARN  PluginLoader: filebrowserplus name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:15 WARN  PluginLoader: filesync name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:15 INFO  KoboPlugin: virtual library is active, applying patches 
+10/27/26-18:16:15 INFO  KoboPlugin: Patched ReaderUI:showReader to handle virtual library paths 
+10/27/26-18:16:15 INFO  KoboPlugin: Applying filesystem virtualization for Kobo kepub files 
+10/27/26-18:16:15 INFO  KoboPlugin: Applying DocumentRegistry monkey patches for Kobo kepub files 
+10/27/26-18:16:15 INFO  KoboPlugin: Applying DocSettings monkey patches for Kobo kepub files 
+10/27/26-18:16:15 INFO  KoboPlugin: Applying FileChooser monkey patches for Kobo virtual library 
+10/27/26-18:16:15 INFO  PathChooserExt: Applied monkey patches for bypass_virtual_library support 
+10/27/26-18:16:15 INFO  KoboPlugin: Applying ReaderPageMap monkey patches for Kobo kepub compatibility 
+10/27/26-18:16:15 INFO  KoboPlugin: ReaderPageMap patches applied for kepub compatibility 
+10/27/26-18:16:15 INFO  KoboPlugin: Applying ReaderUI monkey patches for Kobo kepub navigation 
+10/27/26-18:16:15 INFO  KoboPlugin: ReaderUI patches applied for kepub navigation 
+10/27/26-18:16:15 WARN  PluginLoader: kobo name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:15 WARN  PluginLoader: livelight name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:16 INFO  i18n: installed for lang=C 
+10/27/26-18:16:16 WARN  PluginLoader: panelsplus name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:16 INFO  setting up __gc proxy 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:16 WARN  PluginLoader: rakuyomi name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:16 WARN  PluginLoader: readest name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:16 WARN  PluginLoader: simpleui name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:16 INFO  Localization: Initializing Storefront localization... 
+10/27/26-18:16:16 INFO  Localization: Discovered 19 languages 
+10/27/26-18:16:16 INFO  Localization: Loading translations from: plugins/storefront.koplugin/languages/en.po 
+10/27/26-18:16:16 INFO  Localization: Loaded 845 translations 
+10/27/26-18:16:16 INFO  Localization: Initialized with system language: en 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:16 WARN  PluginLoader: webbrowser name in _meta.lua, is deprecated and will be ignored. 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:17 WARN  PluginLoader: xray name in _meta.lua, is deprecated and will be ignored. 
+10/27/26-18:16:17 INFO  Annas:Ota.getCurrentPluginVersion - Attempting to load version via dofile from: plugins/annas.koplugin//_meta.lua 
+10/27/26-18:16:17 INFO  Annas:Ota.getCurrentPluginVersion - Found version: v0.2.4 
+10/27/26-18:16:17 INFO  Annas: Init successful, version is: v0.2.4 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:17 INFO  KoboPlugin: Reading state sync disabled 
+10/27/26-18:16:17 INFO  KoboBluetooth: Initialized on MTK device 
+10/27/26-18:16:17 INFO  KoboBluetooth: Creating key_bindings with settings 
+10/27/26-18:16:17 INFO  BluetoothKeyBindings: Loaded bindings for 0 devices 
+10/27/26-18:16:17 INFO  KoboBluetooth: key_bindings setup with input_handler 
+10/27/26-18:16:17 INFO  DbusAdapter: Loading MTK adapter for MTK-based Kobo device 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+CRE: RegisterFont: FT_New_Face failed: 0x2
+10/27/26-18:16:17 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/kobo/encrypted/arshuyuansongg30_bd.ttf> 
+CRE: RegisterFont: FT_New_Face failed: 0x2
+10/27/26-18:16:17 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/kobo/encrypted/ub_arming.ttf> 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:17 INFO  simpleui[diag]: init first_run= true onboarding_done= nil start_with= homescreen_simpleui has_document= false 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:17 INFO  Localization: Initializing Storefront localization... 
+10/27/26-18:16:17 INFO  Localization: Discovered 19 languages 
+10/27/26-18:16:17 INFO  Localization: Loading translations from: plugins/storefront.koplugin/languages/en.po 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:17 INFO  Localization: Loaded 845 translations 
+10/27/26-18:16:17 INFO  Localization: Initialized with system language: en 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:18 INFO  simpleui[diag]: first FM setupLayout start_with_hs= true 
+Failed to connect to non-global ctrl_ifname: (nil)  error: No such file or directory
+10/27/26-18:16:19 INFO  simpleui[diag]: on_after_open onboarding_done= nil 
+10/27/26-18:16:19 INFO  simpleui[diag]: onboarding require ok= true  
+10/27/26-18:16:19 INFO  simpleui[diag]: Onboarding.show called 
+BB_invert_blit_from: incompatible bb (dst: BB8, src: BBRGB32) in file blitbuffer.c, line 2762!
+!!!!
+Uh oh, something went awry... (Crash n°5: 10/27/26 @ 18:16:20)
+Running FW 4.46.23836 on Linux 4.9.77 (#1 SMP PREEMPT e5649aba8-20251107T154948-B1107155140)
+Too many consecutive crashes, aborting . . .
+!!!! ! !!!!
+Restoring original fb bitdepth @ 32bpp & rotation @ 3
+[FBInk] Detected a Kobo Clara B&W (391 => Spa BW @ Mark 12)
+[FBInk] This device does not support HW inversion
+[FBInk] Enabled MediaTek quirks
+[FBInk] Clock tick frequency appears to be 100 Hz
+[FBInk] Screen density set to 300 dpi
+[FBInk] Variable fb info: 1072x1448, 8bpp @ rotation: 3 (Counter Clockwise, 270°)
+[FBInk] Fixed fb info: ID is "hwtcon", length of fb mem: 6243328 bytes & line length: 1072 bytes
+[FBInk] Canonical rotation: 0 (Upright, 0°)
+[FBInk] Fontsize set to 24x24 (IBM (Default) base glyph size: 8x8)
+[FBInk] Line length: 44 cols, Page size: 60 rows
+[FBInk] Vertical fit isn't perfect, shifting rows down by 4 pixels
+[FBInk] Framebuffer pixel format: Y8
+[FBDepth] Screen is 1072x1448 (1072x5824 addressable, fb says 1072x1448)
+[FBDepth] Buffer is mapped for 6243328 bytes with a scanline stride of 1072 bytes
+[FBDepth] Current rotation is already 3!
+[FBDepth] Switching fb to 32bpp @ rotation 3 . . .
+Updating bitdepth from 8bpp to 32bpp
+Sanitizing grayscale flag for bitdepths > 8bpp
+Disabled the MTK invert_fb flag
+Updating rotation from 3 (Counter Clockwise, 270°) to 3 (Counter Clockwise, 270°)
+Target device needs help to switch bitdepth...
+...updating MDP source pixel format via `/sys/devices/platform/14000000.hwtcon/mdp_src_format`
+Bitdepth is now 32bpp (grayscale: 0) @ rotate: 3 (Counter Clockwise, 270°)
+[FBInk] Detected a change in framebuffer bitdepth (8 -> 32)
+[FBInk] Reinitializing...
+[FBInk] Variable fb info: 1072x1448, 32bpp @ rotation: 3 (Counter Clockwise, 270°)
+[FBInk] Fixed fb info: ID is "hwtcon", length of fb mem: 6243328 bytes & line length: 4288 bytes
+[FBInk] Canonical rotation: 0 (Upright, 0°)
+[FBInk] Fontsize set to 24x24 (IBM (Default) base glyph size: 8x8)
+[FBInk] Line length: 44 cols, Page size: 60 rows
+[FBInk] Vertical fit isn't perfect, shifting rows down by 4 pixels
+[FBInk] Framebuffer pixel format: RGBA
+[FBDepth] Screen is 1072x1448 (1072x1456 addressable, fb says 1072x1448)
+[FBDepth] Buffer is mapped for 6243328 bytes with a scanline stride of 4288 bytes
